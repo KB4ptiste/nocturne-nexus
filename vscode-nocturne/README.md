@@ -41,7 +41,7 @@ This folder (`vscode-nocturne/`) contains the **VS Code extension** implementati
    This produces a file such as:
 
    ```text
-   nocturne-theme-2.1.0.vsix
+   nocturne-theme-2.1.1.vsix
    ```
 
 2. In Visual Studio Code:
