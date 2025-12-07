@@ -1,14 +1,16 @@
-# Nocturne Theme for VS Code
+# Nocturne Nexus Theme for VS Code
 
-Nocturne is a dark, purple-forward theme designed for people who spend a lot of time staring at code.  
+Nocturne Nexus is a dark, purple-forward theme designed for people who spend a lot of time staring at code.  
 It uses a deep violet base, soft lavender text, and high-chroma accents for structure, actions, and diagnostics.
 
 This repo is the **source of truth** for:
-- The Nocturne VS Code theme
+
+- The Nocturne Nexus VS Code theme
 - The shared color palette
 - The cross-platform design system (editor, terminal, Chroma, web)
 
 ---
+
 ## Features
 
 - Deep, low-glare background tuned for long sessions
@@ -23,36 +25,40 @@ This repo is the **source of truth** for:
   - Chroma / RGB layouts
   - Web UI components
 
-If you use Nocturne in multiple tools, they all speak the same visual language.
+If you use Nocturne Nexus in multiple tools, they all speak the same visual language.
 
 ---
+
 ## Installation
 
 ### From VSIX (local)
 
 1. Build or download the VSIX file:
+
    ```bash
    vsce package
    ```
 
 2. In VS Code:
+
    - Open the **Extensions** view
    - Click the `...` menu → **Install from VSIX...**
    - Select your generated `*.vsix` file
 
 3. Set the color theme:
    - Command Palette → `Preferences: Color Theme`
-   - Choose **Nocturne**
+   - Choose **Nocturne Nexus**
 
 ### From Marketplace
 
 If/when the theme is published to the marketplace:
 
 1. Open the **Extensions** view in VS Code.
-2. Search for **"Nocturne"** by **PseudoAsylum**.
+2. Search for **"Nocturne Nexus"** by **PseudoAsylum**.
 3. Install and select it as your color theme.
 
 ---
+
 ## Repository Structure
 
 Suggested layout if you haven’t already organized it this way:
@@ -82,9 +88,10 @@ Suggested layout if you haven’t already organized it this way:
 - `vscode/` is the VS Code theme implementation that consumes those tokens.
 
 ---
+
 ## Design System
 
-Nocturne uses a role-based design system.  
+Nocturne Nexus uses a role-based design system.  
 Colors are assigned to **roles**, not to arbitrary elements.
 
 Read: `docs/nocturne-design-system.md`
@@ -104,6 +111,7 @@ High-level mapping:
 All downstream implementations (VS Code, terminal, Chroma, web) should use these roles as their starting point.
 
 ---
+
 ## Development
 
 ### Prerequisites
@@ -143,6 +151,7 @@ This produces a `.vsix` file you can install locally.
 Check that all roles (structure, action, values, diagnostics) feel consistent.
 
 ---
+
 ## Using the Colors Elsewhere
 
 - **Terminal:** map ANSI colors according to the roles in `nocturne-design-system.md`.
@@ -152,6 +161,7 @@ Check that all roles (structure, action, values, diagnostics) feel consistent.
 The rule: **pick by role first, hex second.**
 
 ---
+
 ## License
 
 This theme is released under the MIT License.  
