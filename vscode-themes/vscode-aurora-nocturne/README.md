@@ -43,10 +43,10 @@ Enable automatic theme switching:
 ## Screenshots
 
 - Dark: **Nocturne Nexus**
-  ![Nocturne Nexus Theme in VS Code](media/nocturne-nexus-preview.png)
+  ![Nocturne Nexus Theme in VS Code](vscode-themes/vscode-aurora-nocturne/media/nocturne-nexus-preview.png)
 
 - Light: **Aurora Nexus**
-  ![Aurora Nexus Theme in VS Code](media/aurora-nexus-preview.png)
+  ![Aurora Nexus Theme in VS Code](vscode-themes/vscode-aurora-nocturne/media/aurora-nexus-preview.png)
 
 ---
 
